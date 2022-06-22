@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 //This annotation initialize spring and spring framework[autoconfiguration]
 @SpringBootApplication
-@ComponentScan({"com.in28minutes.springboot.web.controller"})
+@ComponentScan({"com.in28minutes.springboot.web.controller", "com.in28minutes.springboot.web.service"})
 public class SpringBootFirstWebApplication {
 
 	public static void main(String[] args) {
